@@ -8,6 +8,7 @@ escape_char     /
 
 
 LC_IDENTIFICATION
+%
 title      "Transcribed Somali language locale for Ethiopia"
 source     "Ge'ez Frontier Foundation"
 address    "501 S Taylor St., Arlington, VA 22204, USA"
@@ -31,14 +32,13 @@ category  "so_ET:2001";LC_PAPER
 category  "so_ET:2001";LC_NAME
 category  "so_ET:2001";LC_ADDRESS
 category  "so_ET:2001";LC_TELEPHONE
-
+%
 END LC_IDENTIFICATION
 
 
 LC_CTYPE
 copy "i18n"
 END LC_CTYPE
-
 
 LC_COLLATE
 % Copy the template from ISO/IEC 14651
