@@ -1,0 +1,9 @@
+For testing:
+
+% export LC_COLLATE=gez_ET-Abegede
+% cat heleHeme.sorted | sort > out
+% diff out abegede.sorted
+
+% export LC_COLLATE=gez_ET
+% cat abegede.sorted | sort > out
+% diff out heleHeme.sorted
